@@ -1,7 +1,7 @@
 .success-state {
   position: relative;
   height: 100%;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   padding: 1.2rem;
