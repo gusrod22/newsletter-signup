@@ -41,3 +41,78 @@ h6 {
 #__next {
   isolation: isolate;
 }
+main {
+  height: 100%;
+}
+.success-state {
+  display: none;
+}
+.main-container {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+.main-content {
+  padding: 1.2rem;
+}
+.list-container {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.list-item {
+  display: flex;
+  align-content: center;
+}
+.check-svg-container {
+  margin-right: 15px;
+}
+.email-error-container {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  margin-bottom: 8px;
+  font-size: 0.8rem;
+}
+.error {
+  color: hsl(4, 100%, 67%);
+  font-weight: 700;
+  display: none;
+}
+.error-input {
+  color: hsl(4, 100%, 67%);
+  background-color: hsl(4, 100%, 94%);
+  border-color: hsl(4, 100%, 67%);
+}
+
+input {
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: hsl(231, 7%, 60%);
+  width: 100%;
+  padding: 8px 0 8px 8px;
+}
+::placeholder {
+  color: hsl(231, 7%, 60%);
+}
+form {
+  margin-bottom: 20px;
+}
+.submit-button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  border: noned;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
