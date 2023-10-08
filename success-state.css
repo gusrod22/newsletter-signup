@@ -1,0 +1,36 @@
+.success-state {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.2rem;
+}
+.success-dismiss-button {
+  position: absolute;
+  bottom: 30px;
+  bottom: 20px;
+  width: 20rem;
+  align-self: center;
+  padding: 0.7rem;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  border: noned;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.success-heading{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 32px;
+}
+.success-svg{
+    margin-bottom: 3rem;
+}
+.success-heading{
+    margin-bottom: 1.2rem;
+}
+.message{
+    margin-bottom: 100px;
+}
