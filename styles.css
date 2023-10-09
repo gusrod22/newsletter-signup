@@ -49,14 +49,7 @@ main {
   height: 100%;
 }
 .hero-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
   margin-bottom: 30px;
-}
-.hero-image img {
-  width: 100%;
-  height: auto;
 }
 .main-content {
   padding: 1.2rem;
@@ -112,4 +105,34 @@ form {
   border-radius: 5px;
   font-weight: 700;
   cursor: pointer;
+}
+@media screen and (min-width: 900px) {
+  .mobile-image {
+    display: none;
+  }
+  .main-container {
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .initial {
+    display: flex;
+    background-color: white;
+    padding: 2.5rem;
+  }
+  .main-content {
+    padding: 0;
+    order: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .list-container {
+    width: 100%;
+  }
 }
